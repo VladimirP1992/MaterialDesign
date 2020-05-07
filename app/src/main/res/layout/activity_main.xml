@@ -23,11 +23,5 @@
         android:elevation="8dp"
         android:layout_marginBottom="16dp"/>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Other text"
-        android:elevation="8dp"
-        android:layout_marginBottom="16dp"/>
 
 </LinearLayout>
