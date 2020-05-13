@@ -27,15 +27,31 @@
 
         <Button
             style="?attr/borderlessButtonStyle"
+            android:onClick="show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="show progressbar" />
 
         <Button
+            android:onClick="hide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/flat_button"
-            android:text="Button" />
+            android:padding="16dp"
+            android:text="hide progressbar" />
+
+        <ProgressBar
+            android:id="@+id/progress_round_activity_progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/progress_line_activity_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
