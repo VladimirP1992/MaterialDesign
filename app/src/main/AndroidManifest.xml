@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".CollapsingActivity"
-            android:label="@string/title_activity_collapsing"
+        <activity android:name=".tabs.TabActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,13 +18,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CollapsingActivity"
+            android:label="@string/title_activity_collapsing"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
             android:name=".NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ToolbarActivity"
             android:label="Toolbar+Buttons"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SnackActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".BottomActivity" />
